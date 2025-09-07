@@ -1,0 +1,14 @@
+public class IMC {
+    public static void main(String[] args) {
+        int idade = 19;
+        double altura = 1.70;
+        double peso = 80.0;
+
+        double imc = peso / (altura * altura);
+
+        System.out.printf("Idade: %d anos%n", idade);
+        System.out.printf("Altura: %.2f m%n", altura);
+        System.out.printf("Peso: %.2f kg%n", peso);
+        System.out.printf("IMC: %.2f%n", imc);
+    }
+}
